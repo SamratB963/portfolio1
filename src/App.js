@@ -9,8 +9,6 @@ import Container from "react-bootstrap/Container";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
-import ParticleBackground from "./Particle";
-import ParticleConfig from "./config/particle-config";
 import Particles from "react-particles-js";
 
 function App() {
