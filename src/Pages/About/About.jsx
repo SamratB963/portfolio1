@@ -40,7 +40,7 @@ function About() {
             </div>
             <div className="about-img">
               <div className="img-box">
-                <img src={AboutImage} alt="about" />
+                <img src={AboutImage} alt="about-image" />
               </div>
             </div>
           </div>

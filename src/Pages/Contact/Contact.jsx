@@ -8,6 +8,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import FacebookIcon from "@material-ui/icons/Facebook";
 import CallIcon from "@material-ui/icons/Call";
 
 const Contact = () => {

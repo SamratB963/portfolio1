@@ -16,7 +16,7 @@ function Home() {
                             <h2>I'm Samrat</h2>
                             <h1 className = "title"> <TitleMessage/></h1>.
                             <a style = {{textDecoration:"none"}}
-                            href="https://docs.google.com/document/d/1Kla8So8T5BRE39_aMmFhbMKenwgHoh65/edit"
+                            href="https://drive.google.com/file/d/1H_7p8s9-d7uhHRiRo8NXA2rhitYNBnGI/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-me-btn"
