@@ -8,7 +8,6 @@ import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import CallIcon from "@material-ui/icons/Call";
 
 const Contact = () => {
@@ -75,7 +74,7 @@ const Contact = () => {
           {" "}
           <CallIcon />
           <sapn className="about-desc-span">
-            <a id="telPhone" href="tel:8500591806">
+            <a id="telPhone" href="tel:7893412207">
               +91 789 3412 207
             </a>
           </sapn>

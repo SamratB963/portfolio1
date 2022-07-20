@@ -18,7 +18,7 @@ export const projects = [
     Project_description:
       "Unsplash is a platform powered by an amazing community that has gifted hundreds of thousands of their own photos to fuel creativity around the world. So sign up for free, or don’t. Either way, you’ve got access to over 3 million photos under the Unsplash license—which makes them free to do-whatever-you-want with.",
     github_link: "https://github.com/SamratB963/Unsplash-Clone.git",
-    deployed_link: "",
+    deployed_link: "https://unsplash-clone-site.netlify.app/",
     technologies: [HTML5, CSS3, JAVASCRIPT],
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     project_image: Project2,
     Project_description:
       "Bigbasket is India’s largest online food and grocery store. With over 18,000 products and over a 1000 brands in our catalogue you will find everything you are looking for. Right from fresh Fruits and Vegetables, Rice and Dals, Spices and Seasonings to Packaged products, Beverages, Personal care products, Meats",
-    github_link: "https://github.com/SamratB963/Big-Basket.git",
+    github_link: "https://github.com/SamratB963/Big-Basket-Clone.git",
     deployed_link: "https://bigbasket-clone26.netlify.app/",
     technologies: [HTML5, CSS3, JAVASCRIPT, BOOTSTRAP,],
   },
