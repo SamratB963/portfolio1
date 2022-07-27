@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import TitleMessage from './Title'
-import AboutImage from "../../images/profilepic.jpg";
+import AboutImage from "../../images/linkedinselfpic.jpg";
 
 
 function Home() {
