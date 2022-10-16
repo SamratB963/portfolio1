@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.cf89b482.chunk.css",
-    "main.js": "./static/js/main.6c5d26d9.chunk.js",
-    "main.js.map": "./static/js/main.6c5d26d9.chunk.js.map",
+    "main.css": "./static/css/main.55f1f1b7.chunk.css",
+    "main.js": "./static/js/main.208578a1.chunk.js",
+    "main.js.map": "./static/js/main.208578a1.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ea1fc13d.js",
     "runtime-main.js.map": "./static/js/runtime-main.ea1fc13d.js.map",
     "static/css/2.fabbef47.chunk.css": "./static/css/2.fabbef47.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.1927cce0.chunk.js.map": "./static/js/3.1927cce0.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.fabbef47.chunk.css.map": "./static/css/2.fabbef47.chunk.css.map",
-    "static/css/main.cf89b482.chunk.css.map": "./static/css/main.cf89b482.chunk.css.map",
+    "static/css/main.55f1f1b7.chunk.css.map": "./static/css/main.55f1f1b7.chunk.css.map",
     "static/js/2.2bfb4f73.chunk.js.LICENSE.txt": "./static/js/2.2bfb4f73.chunk.js.LICENSE.txt",
     "static/media/Bigbasket.23ac83d5.png": "./static/media/Bigbasket.23ac83d5.png",
     "static/media/Unsplash.45085c4f.png": "./static/media/Unsplash.45085c4f.png",
@@ -28,11 +28,11 @@
     "static/media/html.b40d5a08.png": "./static/media/html.b40d5a08.png",
     "static/media/javascript.ba40d6a9.svg": "./static/media/javascript.ba40d6a9.svg",
     "static/media/javascript1.e6df327d.svg": "./static/media/javascript1.e6df327d.svg",
+    "static/media/linkedinselfpic.f28627f0.jpg": "./static/media/linkedinselfpic.f28627f0.jpg",
     "static/media/material-ui-1.fd510ed8.svg": "./static/media/material-ui-1.fd510ed8.svg",
     "static/media/mongodb.d89a6eeb.svg": "./static/media/mongodb.d89a6eeb.svg",
     "static/media/netlify.603ef81c.png": "./static/media/netlify.603ef81c.png",
     "static/media/nodejs.52cbf9a8.svg": "./static/media/nodejs.52cbf9a8.svg",
-    "static/media/profilepic.997db6ac.jpg": "./static/media/profilepic.997db6ac.jpg",
     "static/media/react.add74742.svg": "./static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "./static/media/redux.0e4fb1c8.svg",
     "static/media/s-tattoo3.9c232c29.jpg": "./static/media/s-tattoo3.9c232c29.jpg"
@@ -41,7 +41,7 @@
     "static/js/runtime-main.ea1fc13d.js",
     "static/css/2.fabbef47.chunk.css",
     "static/js/2.2bfb4f73.chunk.js",
-    "static/css/main.cf89b482.chunk.css",
-    "static/js/main.6c5d26d9.chunk.js"
+    "static/css/main.55f1f1b7.chunk.css",
+    "static/js/main.208578a1.chunk.js"
   ]
 }

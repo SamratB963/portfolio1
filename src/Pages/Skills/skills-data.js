@@ -12,6 +12,12 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_NETLIFY_PAGES from "../../assets/img/skills/netlify.png";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import EXPRESS from "../../assets/img/skills/express2.png";
+import SELFDISCIPLINE from "../../assets/img/skills/selfdisiciplineicon.jpg";
+import ALGORITHMS from "../../assets/img/skills/algorithms.png";
+import REMOTECOLLAB from "../../assets/img/skills/remotecollabicon.jpg";
+import TEAMANAGE from "../../assets/img/skills/teammanagementicon.png";
+import TIMEMANAGE from "../../assets/img/skills/timemanagmenticon.png";
+import PROBLEMSOLVING from "../../assets/img/skills/problemsolving.png";
 
 export const skills = {
   frontend: [
@@ -35,6 +41,12 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REACT,
+      skillName: "React JS",
+    },
+    {
       link: "https://material-ui.com/",
       imgAltText: "Material-UI",
       imgSrc: L_MATERIALUI,
@@ -47,18 +59,13 @@ export const skills = {
       imgSrc: L_BOOTSTRAP,
       skillName: "Bootstrap",
     },
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "React JS",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
+
+    // {
+    //   link: "https://redux.js.org/",
+    //   imgAltText: "Redux",
+    //   imgSrc: L_REDUX,
+    //   skillName: "Redux",
+    // },
   ],
 
   backend: [
@@ -74,6 +81,12 @@ export const skills = {
       imgSrc: EXPRESS,
       skillName: "Express",
     },
+    {
+      link: "https://www.mongodb.com/",
+      imgAltText: "MongoDB",
+      imgSrc: L_MONGODB,
+      skillName: "MongoDB",
+    },
   ],
   hostingPlatforms: [
     {
@@ -82,12 +95,13 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    {
-      link: "https://pages.github.com/",
-      imgAltText: "GitHub Pages",
-      imgSrc: L_GITHUB_PAGES,
-      skillName: "GitHub Pages",
-    },
+    // {
+    //   link: "https://pages.github.com/",
+    //   imgAltText: "GitHub Pages",
+    //   imgSrc: L_GITHUB_PAGES,
+    //   skillName: "GitHub Pages",
+    // },
+    
     {
       link: "https://cli.netlify.com/",
       imgAltText: "Netlify Deploy",
@@ -95,21 +109,46 @@ export const skills = {
       skillName: "Netlify",
     }
   ],
-  programmingLanguages: [
+  softskills: [
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
+      link: "https://cli.netlify.com/",
+      imgAltText: "DS Algorithms",
+      imgSrc: ALGORITHMS,
+      skillName: "DS  Algorithms",
+    },
+    {
+      link: "https://cli.netlify.com/",
+      imgAltText: "Self Discipline",
+      imgSrc: SELFDISCIPLINE,
+      skillName: "Self-Discipline",
+    },
+    {
+      link: "https://cli.netlify.com/",
+      imgAltText: "Netlify Deploy",
+      imgSrc: TIMEMANAGE,
+      skillName: "Time Management",
+    },
+    {
+      link: "https://cli.netlify.com/",
+      imgAltText: "Netlify Deploy",
+      imgSrc: REMOTECOLLAB,
+      skillName: "Remote Collaboration",
+    },
+    {
+      link: "https://cli.netlify.com/",
+      imgAltText: "Netlify Deploy",
+      imgSrc: TEAMANAGE,
+      skillName: "Team Management",
+    },
+    {
+      link: "https://cli.netlify.com/",
+      imgAltText: "Netlify Deploy",
+      imgSrc: PROBLEMSOLVING,
+      skillName: "Problem Solving",
     },
   ],
   databases: [
-    {
-      link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
-      skillName: "MongoDB",
-    },
+ 
   ],
   versionControl: [
     {

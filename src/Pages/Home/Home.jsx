@@ -16,10 +16,11 @@ function Home() {
                             <h2>I'm Samrat</h2>
                             <h1 className = "title"> <TitleMessage/></h1>.
                             <a style = {{textDecoration:"none"}}
-                            href="https://drive.google.com/file/d/1H_7p8s9-d7uhHRiRo8NXA2rhitYNBnGI/view?usp=sharing"
+                            href="https://drive.google.com/file/d/16c1a8wP4zj1TDO7JuQRgV0Pew56EwpP1/view?usp=sharing"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            // rel="noopener noreferrer"
                             className="about-me-btn"
+                            download
                             >
                             Resume
                             </a>

@@ -15,8 +15,8 @@ const MyNavbar = () => {
       >
         <div style = {{marginLeft:"50px"}}>
           <Navbar.Brand href="#home">
-            <img className="logo" src={Logo} alt="logo" />
-            {/* <h1>Samrat</h1> */}
+            {/* <img className="logo" src={Logo} alt="logo" /> */}
+            <h3>Samrat</h3>
           </Navbar.Brand>
         </div>
         <div>
@@ -27,7 +27,6 @@ const MyNavbar = () => {
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
-            
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>

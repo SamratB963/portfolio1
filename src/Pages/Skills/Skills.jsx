@@ -5,6 +5,7 @@ import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+
 // skills
 import { skills } from "./skills-data";
 import "./Skills.css";
@@ -12,18 +13,18 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+      <h1 className="text-center font-details-b pb-4">SKILLS</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around" style = {{margin:'auto'}}>
             
           {/* Frontend */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
+            <Card className="focus mt-2 mb-2" >
+              <Card.Body style ={{width:"18rem"}}>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title ">Frontend</Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                <Card.Text  className="card-text d-flex justify-content-start flex-column">
                   {skills.frontend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
@@ -42,7 +43,7 @@ const Skills = () => {
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                <Card.Text  className="card-text d-flex justify-content-start flex-column">
                   {skills.backend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
@@ -74,13 +75,13 @@ const Skills = () => {
 
           {/* Programming Languages */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
+            <Card className="focus mt-2 mb-2" >
+              <Card.Body >
+                <Card.Title className="text-center  card-title">Other Skills</Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.programmingLanguages.map((skill, index) => (
-                    <span className="p-2" key={index}>
+                <Card.Text  className="card-text d-flex justify-content-start flex-column">
+                  {skills.softskills.map((skill, index) => (
+                    <span  className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
@@ -92,7 +93,7 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card className="focus mt-2 mb-2">
+            {/* <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
@@ -106,10 +107,10 @@ const Skills = () => {
                   ))}
                 </Card.Text>
               </Card.Body>
-            </Card>
+            </Card> */}
             {/* Version Control */}
 
-            <Card className="focus mt-2 mb-2">
+            {/* <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Version Control</Card.Title>
                 <hr />
@@ -121,7 +122,7 @@ const Skills = () => {
                   </span>
                 </Card.Text>
               </Card.Body>
-            </Card>
+            </Card> */}
           </Col>
         </Row>
       </CardDeck>

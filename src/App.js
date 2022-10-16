@@ -9,16 +9,16 @@ import Container from "react-bootstrap/Container";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
-import ParticleBackground from "./Particle";
-import ParticleConfig from "./config/particle-config";
-import Particles from "react-particles-js";
+// import ParticleBackground from "./Particle";
+// import ParticleConfig from "./config/particle-config";
+// import Particles from "react-particles-js";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <div>
-        <Particles
+        {/* <Particles
           style={{
             position: "absolute",
             top: 0,
@@ -27,7 +27,7 @@ function App() {
             height: "100%",
             background: "rgb(46,50,81)",
           }}
-        />
+        /> */}
       </div>
       <Home />
       <div>

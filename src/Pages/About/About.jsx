@@ -17,7 +17,8 @@ function About() {
             
             <div className="about-info">
               <p>
-                <h6>Hi! I am Samrat Bandalakunta</h6>
+                <div></div>
+                <h6>Hi! I am Samrat Bandalakunta </h6>
                 🏡 I am from Kadapa, Andhra Pradesh.
                 <br />
                 <br />
